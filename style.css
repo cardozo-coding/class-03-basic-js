@@ -1,0 +1,40 @@
+body{
+  background-color: #fffff8;
+  color: #111;
+  font-family: 'News Cycle', sans-serif;
+}
+#wrapper{
+  margin: 5% 10%;
+}
+h1{
+  color: steelblue;
+  text-align: center;
+}
+h3{
+  text-decoration: underline;
+  display: inline-block;
+}
+h4{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: steelblue;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  padding: 0 20px; 
+}
+.book{
+  font-variant: small-caps;
+}
+
+/*#professional_content, #education_content, #scholarship_content, #organizations_content, #activities_content, #technical_content{
+  display: none;
+}*/
+
+.content{
+  display: none;
+}
