@@ -28,18 +28,22 @@
             //change main text
             
             //variables
-            var text = ["Lawyer", "Entrepreuner", "Geek"];
+            var text = ["Professor", "Entrepreuner", "Geek", "Lawyer"];
             var counter = 0;
             
             //set function
             function change() {
                 $("#image-text").html(text[counter]);
+                $("#image-text").css("opacity","0");
+                $( "#image-text" ).animate({
+                    opacity: 1.0
+                }, 800);
                 counter++;
                 if(counter >= text.length) { counter = 0; }
             }
 
             //implement the change
-            setInterval(change, 1000);
+            setInterval(change, 2200);
     });
 
     // Overtly verbose functions to extremly demonstrate how jQuery works and help reduce the added complexity of abstraction
