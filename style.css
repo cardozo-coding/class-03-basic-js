@@ -32,10 +32,6 @@ p{
   font-variant: small-caps;
 }
 
-/*#professional_content, #education_content, #scholarship_content, #organizations_content, #activities_content, #technical_content{
-  display: none;
-}*/
-
 .content{
   display: none;
 }
