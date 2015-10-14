@@ -19,4 +19,8 @@ Learn basic JavaScript/jQuery, basic click-events, more advanced CSS, and make a
 5. write basic jquery functions and add images
 
 ## Additional Resources
+- include jQuery: `<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>`
+- jQuery [reference sheet](http://oscarotero.com/jquery/)
+- jQuery [basics](http://jqfundamentals.com/chapter/jquery-basics)
+- CodeAcademy [jQuery course](https://www.codecademy.com/courses/basic-jquery/0/1)
 
