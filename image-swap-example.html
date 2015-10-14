@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">      
+      $(function() {
+        $("#button").on("click", function(){
+            $("#gif").html("<img src='https://media.giphy.com/media/xTiTnLIpvL5o1tBy5W/giphy.gif'>");
+          });
+      });
+  </script>
+    
+</head>
+
+<body>
+  <input type="button" value="Image Swap" id="button">
+  <div id="gif">
+    <img src="https://media.giphy.com/media/ERHjRf12yMGC4/giphy.gif">
+  </div>
+
+</body>
+</html>
